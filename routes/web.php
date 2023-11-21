@@ -29,3 +29,4 @@ Route::get('/val', function () {
     return view('validasi');
 });
 
+Route::get('perkalian', 'App\Http\Controllers\MhsController@index');
