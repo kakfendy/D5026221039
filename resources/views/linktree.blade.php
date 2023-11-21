@@ -1,50 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="shortcut icon" href="./FavIcon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
-    <title>UMKM Juara | Linktree</title>
-    <link rel="stylesheet" href="{{ asset('css/style_link.css') }}">
-</head>
-
-<body>
-    <style>
-        body {
-            background-color: #ffffffea;
-        }
-    </style>
-    <section class="header">
-        <img src="https://ugc.production.linktr.ee/4KzNVqJITM6ucZ5wYxsD_UjDXM4X649k4fcyu?io=true&size=avatar-v1">
-        <h1>UMKM JUARA</h1>
-        <p>Provinsi Jawa Barat</p>
-    </section>
-    <section class="links">
+    <head>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./FavIcon.png">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta charset="UTF-8">
+     <title>yakult Linktree clone</title>
+     <link rel="stylesheet" href="{{asset('linktree/style.css')}}">
+    </head> 
+     <body>
+        <style>
+            body{
+                background-color: #db0537ea;
+            }
+         </style> 
+     <section class="header">
+        <img src="{{asset('linktree/yakult.jpeg')}}"> 
+        <h1>@yakultindonesia</h1>
+  <p>Minuman Susu Fermentasi - Minuman Keluarga Sehat Setiap Hari</p>
+     </section>
+     <section class="links">
         <div class="link-item">
-            <a href="https://drive.google.com/file/d/1MXND8wg8A4wR9bw11NJKYc0J4JK7B7P9/view?usp=sharing"
-                target="_blank">SK Pendamping UMKM Juara 2023</a>
-            <a href="https://drive.google.com/file/d/1h4qEfoEzlPS58IbCVpvDcxAJnR7W458_/view?usp=sharing"
-                target="_blank">Juknis UMKM Juara 2023</a>
-            <a href="https://drive.google.com/drive/folders/1NI9bEe2wzeNFpxrjUD624e0UB_3ERexv?usp=sharing"
-                target="_blank">Format Laporan Pendamping</a>
-            <a href="https://drive.google.com/drive/folders/1NI9bEe2wzeNFpxrjUD624e0UB_3ERexv?usp=sharing"
-                target="_blank">Dokumentasi UMKM Juara 2023</a>
-            <a href="https://drive.google.com/drive/folders/1btiShwuFHl6FhdAPUkcdLfzPiEUbL-hd?usp=sharing"
-                target="_blank">Materi Promo UMKM Juara</a>
-            <a href="https://drive.google.com/drive/folders/1NGzJnVRrEsbe3hGOEhP3adGfglwz2qsh?usp=sharing"
-                target="_blank">Materi BIMTEK Pendamping 2023</a>
-        </div>
-
-    </section>
-    <footer>
-        <a href="https://linktr.ee/umkmjuarajabar" target="_blank">
-            <img src="{{ asset('linktree/LinktreeLogo.png') }}" alt="Linktree logo" width=100px height=21px>
+            <a href="https://www.yakult.co.id/order-yakult" target="_blank">Pesan Yakult Secara Online</a>
+            <a href="https://yakult.co.id/" target="_blank">Website Yakult Indonesia</a>
+            <a href="https://www.youtube.com/channel/UCy9ppluWp0vfRLDA_SiyO3Q" target="_blank">Youtube Yakult Indonesia</a>
+            <a href="https://www.tiktok.com/@yakult_indonesia" target="_blank">Tiktok Yakult Indonesia</a>
+            <a href="https://twitter.com/YakultIndonesia" target="_blank">Twitter Yakult Indonesia</a>
+            <a href="https://www.facebook.com/YakultINA" target="_blank">Fanpage Facebook Yakult Indonesia</a>
+            <a href="https://www.instagram.com/yakult_indonesia/" target="_blank">Instagram Yakult Indonesia</a>
+         </div>
+         
+     </section>
+     <footer>
+        <a href="https://linktr.ee/?utm_source=linktree&utm_medium=profile&utm_content=yakultindonesia" >
+          <img src="{{asset('linktree/LinktreeLogo.png')}}" alt="Linktree logo" width=177px height=31px>
         </a>
-    </footer>
-
-
-
-</body>
-
+      </footer>
+      
+         
+     
+    </body>
 </html>
+ 
