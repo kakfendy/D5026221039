@@ -20,7 +20,7 @@
     <div class="container">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">Ezra Bimantara - 5026221118</a>
+  <a class="navbar-brand" href="#">5026221039_Kevin Effendy </a>
 
   <!-- Links -->
   <ul class="navbar-nav">
