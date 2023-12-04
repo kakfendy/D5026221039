@@ -63,3 +63,16 @@ Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 Route::get('/pegawai/{name}', 'App\Http\Controllers\DosenController@shownama');
 
 
+// Route CR nilaikuliah
+Route::get('/nilaikuliah', 'NilaikuliahController@indexnilai');
+Route::get('/nilaikuliah/tambah', 'NilaikuliahController@tambahnilai');
+Route::post('/nilaikuliah/store', 'NilaikuliahController@store');
+
+// web.php
+use App\Http\Controllers\NilaikuliahController;
+
+Route::get('/nilaikuliah', [NilaikuliahController::class, 'indexnilai']);
+Route::get('/nilaikuliah/tambah', [NilaikuliahController::class, 'tambahnilai']);
+Route::post('/nilaikuliah/store', [NilaikuliahController::class, 'storenilai']);
+
+
