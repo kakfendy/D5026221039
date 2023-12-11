@@ -40,6 +40,7 @@
         <a class="dropdown-item" href="/pegawai">Pegawai</a>
         <a class="dropdown-item" href="/nilaikuliah">Pra EAS: Nilai Kuliah</a>
         <a class="dropdown-item" href="/laptop">Pra EAS: Laptop</a>
+        <a class="dropdown-item" href="/kategori">EAS_CC: Kategori</a>
       </div>
     </li>
   </ul>

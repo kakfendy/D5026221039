@@ -87,4 +87,6 @@ Route::get('/laptop/hapus/{id}','App\Http\Controllers\laptopController@hapus');
 Route::get('/laptop/view/{id}','App\Http\Controllers\laptopController@view');
 Route::get('/laptop/cari','App\Http\Controllers\laptopController@cari');
 
-
+// KATEGORI
+Route::get('/kategori','App\Http\Controllers\KategoriController@index');
+Route::get('/kategori/view/{id}','App\Http\Controllers\KategoriController@view');
