@@ -28,7 +28,7 @@ Route::get('/blog2', function () {
 Route::get('/latihan1', function () {
 	return view('latihan1');
 });
-Route::get('/link', function () {
+Route::get('/linktree', function () {
 	return view('linktree');
 });
 Route::get('/validasi', function () {
@@ -74,5 +74,17 @@ use App\Http\Controllers\NilaikuliahController;
 Route::get('/nilaikuliah', [NilaikuliahController::class, 'indexnilai']);
 Route::get('/nilaikuliah/tambah', [NilaikuliahController::class, 'tambahnilai']);
 Route::post('/nilaikuliah/store', [NilaikuliahController::class, 'storenilai']);
+
+
+
+// LAPTOP
+Route::get('/laptop','App\Http\Controllers\laptopController@index');
+Route::get('/laptop/tambah','App\Http\Controllers\laptopController@tambah');
+Route::post('/laptop/store','App\Http\Controllers\laptopController@store');
+Route::get('/laptop/edit/{id}','App\Http\Controllers\laptopController@edit');
+Route::post('/laptop/update','App\Http\Controllers\laptopController@update');
+Route::get('/laptop/hapus/{id}','App\Http\Controllers\laptopController@hapus');
+Route::get('/laptop/view/{id}','App\Http\Controllers\laptopController@view');
+Route::get('/laptop/cari','App\Http\Controllers\laptopController@cari');
 
 
